@@ -1,0 +1,31 @@
+.breadcrumb
+  margin-bottom: 20px
+  padding: 10px 0
+
+  &__list
+    display: flex
+    flex-wrap: wrap
+    list-style: none
+    margin: 0
+    padding: 0
+    font-size: 14px
+
+  &__item
+    display: flex
+    align-items: center
+
+  &__link
+    color: $grey
+    text-decoration: none
+    transition: color 0.2s ease
+
+    &:hover
+      color: $black
+
+  &__separator
+    margin: 0 10px
+    color: $grey
+
+  &__current
+    color: $black
+    font-weight: 500
